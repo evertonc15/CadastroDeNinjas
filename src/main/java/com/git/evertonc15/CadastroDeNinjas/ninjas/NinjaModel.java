@@ -2,11 +2,15 @@ package com.git.evertonc15.CadastroDeNinjas.ninjas;
 
 import com.git.evertonc15.CadastroDeNinjas.missoes.MissoesModel;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 
 @Entity
 @Table(name = "tb_cadastro")
+@NoArgsConstructor
+@AllArgsConstructor
 @Data
 public class NinjaModel {
 
